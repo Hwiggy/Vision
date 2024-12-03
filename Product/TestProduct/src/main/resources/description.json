@@ -1,0 +1,8 @@
+{
+  "name": "${project.name}",
+  "version": "${project.version}",
+  "main": "me.hwiggy.vision.product.TestProductEntrypoint",
+  "author": "Hunter Wignall",
+  "hard-dependencies": [],
+  "soft-dependencies": []
+}

@@ -2,12 +2,12 @@ rootProject.name = "Vision"
 
 val vKotlin = "2.0.0"
 val vJDA = "5.2.1"
-val vJackson = "2.18.2"
 val vLogback = "1.5.12"
+val vGson = "2.11.0"
 
 val vKommander = "1.8.0"
 val vExtensible = "1.4.5"
-val vRegroup = "1.1-SNAPSHOT"
+val vRegroup = "1.2-SNAPSHOT"
 
 pluginManagement {
     plugins {
@@ -24,7 +24,7 @@ dependencyResolutionManagement {
             library("extensible", "me.hwiggy:Extensible:$vExtensible")
             library("logback", "ch.qos.logback:logback-classic:$vLogback")
             library("regroup", "me.hwiggy.regroup:API:$vRegroup")
-            library("jackson", "com.fasterxml.jackson.core:jackson-databind:$vJackson")
+            library("gson", "com.google.code.gson:gson:$vGson")
         }
     }
 }

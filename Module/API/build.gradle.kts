@@ -11,5 +11,5 @@ dependencies {
     api(coreLibs.kommander)
     api(coreLibs.extensible)
     api(coreLibs.regroup)
-    api(coreLibs.jackson)
+    api(coreLibs.gson)
 }

@@ -9,6 +9,7 @@ group = "me.hwiggy.vision.module"
 
 dependencies {
     api(project(":Module:API"))
+    implementation(kotlin("stdlib"))
     implementation(coreLibs.jda)
     implementation(coreLibs.logback)
 }

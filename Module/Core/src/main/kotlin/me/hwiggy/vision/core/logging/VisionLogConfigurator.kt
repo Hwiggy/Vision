@@ -30,7 +30,6 @@ class VisionLogConfigurator : ContextAwareBase(), Configurator {
                 setParent(fileAppender)
                 this.fileNamePattern = "logs/Vision-%d{yyyy-MM-dd}.log.gz"
                 this.context = context
-                this.maxHistory
                 start()
             }
             fileAppender.encoder = basicLayoutEncoder
